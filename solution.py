@@ -9,7 +9,7 @@ def solution(...) -> bool: # Одна или две выборке на вход
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
 
-    data = pd.read_csv("./hyp3_historical_data.csv")
+    data = pd.read_csv("/hyp3_historical_data.csv")
     
     d = data.iloc[0].to_list()
 
